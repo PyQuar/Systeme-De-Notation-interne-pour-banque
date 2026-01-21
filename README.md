@@ -24,23 +24,6 @@ Ce projet implémente un **Système de Notation Interne (SNI)** complet pour l'�
 | **Gini** | 0.76 | 0.68 |
 | **Accuracy** | 85% | 82% |
 
-## 🏗️ Architecture du Projet
-
-```
-scoring/
-│
-├── test.ipynb                          # Notebook principal du scoring
-├── base_SNI.xlsx                       # Données source (5 752 clients)
-├── bases_train_test.xlsx               # Bases Train/Test exportées
-├── resultats_selection_variables.xlsx  # Résultats IV & corrélations
-├── resultats_modele_scoring.xlsx       # Scorecard & résultats finaux
-├── README.md                           # Documentation
-│
-├── Presentations/
-│   └── Presentation_Etape1_*.pptx      # Présentations PowerPoint
-│
-└── .venv/                              # Environnement virtuel Python
-```
 
 ## 🔄 Méthodologie
 
@@ -181,8 +164,3 @@ Ce modèle est développé en conformité avec :
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
----
-
-<p align="center">
-  <i>Développé avec ❤️ pour l'analyse du risque de crédit</i>
-</p>
